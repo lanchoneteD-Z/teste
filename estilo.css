@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    
+    height: 100vh;
+    width: 100vw;  
+    
+}
+
+body {
+
+
+    background: #ffcb37;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position:relative;
+    top: -25px;
+    
+   
+    
+    
+    
+   
+}
+
+
+section#icones img {
+    position: relative;
+    top: -30px;
+    width: 120px;
+    margin: 25px;
+    outline: none;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#icones {
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+section#icones img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -9px);
+    box-shadow: 5px 10px rgb(0, 0, 0 0.623);
+    transition: transform .5s border .1s;
+}
+
+h3 {
+    position: relative;
+top: 100px;
+font-size: 30px;
+text-align: center;
+color: white;
+
+}
+
+
+section#redes-sociais img {
+    width: 100%;
+    width: 50px;
+    margin: 25px;
+    border-radius: 50%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais {
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 10px rgb(0, 0, 0 0.623);
+    transition: transform .5s border .1s;
+}
+
+
+
+            .categoria {
+
+         position: relative;
+         top: -20px;
+         color: white;
+         font-size: 30px;
+
+
+            }
+
+            header {
+
+             
+                background-color: #483D8B;
+                padding: 15px;
+                
+                font-size: 18px;
+            
+                font-weight: bold;
+            }
+
+            
+            
+            
+            .menu {
+                color: white;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .logo {
+            
+                position: relative;
+                text-align: center;
+                width: 30px;
+               
+                
+               
+            
+               }
+            
+               nav {
+                height: 100%;
+                width: 0px;
+                background-color: #483D8B;
+                position: fixed;
+                
+                left: 0;
+                z-index: 1;
+                overflow: hidden;
+                
+            }
+            
+            nav a {
+                color: white;
+                font-size: 25px;
+                display: block;
+                padding: 12px 10px 12px 32px;
+            
+            }
+            nav a:hover {
+            
+            background-color: white;
+            color: #483D8B;
+            font-weight: bold;
+            }
+            
+            
+            .logoMenu {
+            
+            position: relative;
+            margin: -27px;
+            left: -418px;
+            width: 20px;
+            
+            
+            }
+            
+
+.zap {
+
+position: fixed;
+margin: 40px;
+margin-top: 100px;
+z-index: 5000;
+bottom: 12px;
+width: 50px;
+right: -30px;
+border-radius: 50%;
+}
+
+.zap1 {
+
+    position: fixed;
+    margin: 110px;
+    margin-top: 100px;
+    z-index: 5000;
+    bottom: 12px;
+    width: 50px;
+    right: -100px;
+    border-radius: 50%;
+    
+    }
+
+    .zap2 {
+
+        position: fixed;
+        margin: 180px;
+        margin-top: 100px;
+        z-index: 5000;
+        bottom: 12px;
+        width: 50px;
+        right: -170px;
+        border-radius: 50%;
+        }
+
+
+        .zap:hover {
+
+            border: 2px solid white;
+            transform: translate(-3px, -9px);
+            box-shadow: 5px 10px rgb(0, 0, 0 0.623);
+            transition: transform .5s border .1s;
+        }
+
+        .zap1:hover {
+
+            border: 2px solid white;
+            transform: translate(-3px, -9px);
+            box-shadow: 5px 10px rgb(0, 0, 0 0.623);
+            transition: transform .5s border .1s;
+        }
+
+        .zap2:hover {
+
+            border: 2px solid white;
+            transform: translate(-3px, -9px);
+            box-shadow: 5px 10px rgb(0, 0, 0 0.623);
+            transition: transform .5s border .1s;
+        }
+
+        .logo {
+
+         position: relative;
+         text-align: center;
+         width: 30px;
+        
+         
+        
+
+        }
+        
+        
+        footer {
+position: fixed;
+text-align: center;
+bottom: 0;
+width: 100%;
+background-color: #483D8B;
+padding: 5px;
+color: white;
+font-size: 12px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+        }
+
+.img-roda-pe {
+
+width: 18px;
+
+
+}
+
+        
+
